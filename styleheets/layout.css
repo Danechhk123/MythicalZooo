@@ -1,0 +1,489 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'TT Norms Pro Normal', sans-serif;
+    background-color: rgb(101, 133, 160);
+    overflow-x: hidden;
+    width: 100%;
+    height: min-content;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  ul {
+    display: flex;
+  }
+
+ 
+  .h_h1{
+    margin-top: 10vw;
+    width: 18.5ch;
+left: 12vw;
+position: relative;
+
+    font-family: "InterRegular";
+color: rgb(0, 0, 0);
+font-size:  7.51vw;
+white-space: nowrap; /* не переносить текст на другую строку */
+  overflow: hidden; /* скрываем переполнение контентом */
+  border-right: 3px solid white; /* рисуем курсор */
+animation: cursor 0.6s step-end infinite, printed_text  infinite 2s steps(17);
+animation-delay: 2s;
+}
+.tock {
+
+  letter-spacing: -3.5vw;
+  font-size: 40vw;
+height: min-content;
+  position: relative;
+top: -25vw;
+  left: 22vw;
+}
+
+
+
+
+.logo_header {
+  width: 65vw;
+  position: absolute;
+  top: 22vw;
+  left: 17vw;
+}
+
+.k1 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width: 11.9vw;
+height: 11.9vw;
+left: 21.7vw;
+top: 115.6vw;
+
+animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+.k2 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width: 11.9vw;
+  height: 11.9vw;
+  left: 62vw;
+  top: 153.6vw;
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+.k3 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width: 8.5vw;
+  height: 8.5vw;
+  left: 51vw;
+  top: 183.6vw;
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+.k4 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width:  9.7vw;
+  height:  9.7vw;
+  left: 48vw;
+  top: 196.6vw;
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.k5 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width:  9.7vw;
+  height:  9.7vw;
+  left: 62vw;
+  top: 187.6vw;
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move4;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.k6 {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width:  6.8vw;
+  height:  6.8vw;
+  left: 50vw;
+  top: 208.6vw;
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: move5;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+.shar1 {
+width: 38vw;
+  position: absolute;
+  top: 133vw;
+  left: 17vw;
+  transform: scale(0);
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: shar;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+.shar2 {
+  width: 31vw;
+  position: absolute;
+  top: 176vw;
+  left: 17vw;
+  transform: scale(0);
+  animation-direction: alternate;
+	animation-duration: 3s;
+	animation-name: shar2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+.fire {
+  position: absolute;
+  top: 108vw;
+  left: 49vw;
+  width: 30vw;
+}
+.el {
+  animation: blink 4s linear infinite;
+}
+.e3 {
+
+height: 5.7vw;
+width: 18vw;
+margin-bottom: 2vw;
+background-color: black;
+}
+.volume1 {
+  margin: 0vw 5vw;
+  position: relative;
+ top: -1vw;
+}
+.block2 {
+left: 17vw;
+  width: min-content;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 220vw;
+  align-items: end;
+}
+
+
+
+.a1 {
+  width: 25vw;
+  margin-left: -7vw;
+  margin-bottom: 1vw;
+
+}
+.a2 {
+  margin-bottom: 1vw;
+  width: 16vw;
+  margin-left: 2vw;
+}
+.a3 {
+  
+  margin-bottom: 1vw;
+  width: 16vw;
+}
+.a4 {
+  margin-bottom: 1vw;
+  position: relative;
+  width: 16vw;
+  transform: scale(-1, -1); 
+
+ 
+}
+.a5 {
+  width: 18vw;
+margin-bottom: 1.5vw;
+  transform: scaleX(-1);
+}
+.a6 {
+  width: 10vw;
+position: relative;;
+left: 8vw ;
+margin-bottom: 2vw;
+margin-top: 2vw;
+
+}
+.a7 {
+  width: 18vw;
+  margin-bottom: 2vw;
+}
+
+
+
+.el1  {
+  animation: blink 4s linear infinite;
+}
+
+.el1:nth-child(1) { animation-delay: 7s; }
+.el1:nth-child(2) { animation-delay: 6s; }
+.el1:nth-child(3) { animation-delay: 5s; }
+.el1:nth-child(4) { animation-delay: 4s; }
+
+.el:nth-child(1) { animation-delay: 7s; }
+.el:nth-child(2) { animation-delay: 6s; }
+.el:nth-child(3) { animation-delay: 5s; }
+.el:nth-child(4) { animation-delay: 4s; }
+.el:nth-child(5) { animation-delay: 3s; }
+.el:nth-child(6) { animation-delay: 2s; }
+.el:nth-child(7) { animation-delay: 1s; }
+
+
+.el:nth-child(1) { animation-delay: 7s; }
+.el:nth-child(2) { animation-delay: 6s; }
+.el:nth-child(3) { animation-delay: 5s; }
+.el:nth-child(4) { animation-delay: 4s; }
+.el:nth-child(5) { animation-delay: 3s; }
+.el:nth-child(6) { animation-delay: 2s; }
+.el:nth-child(7) { animation-delay: 1s; }
+
+
+
+
+.spin {
+  position: relative;
+  top: 255vw;
+  left: 14vw;
+  width:76vw ;
+  animation: rotate 1s linear infinite;
+}
+
+
+
+
+.block3 {
+  left: 17vw;
+    width: min-content;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 425vw;
+    align-items: end;
+  }
+
+  .shariki {
+width: 70vw;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: shar_aLL;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: -35vw;
+    position: absolute;
+  }
+
+
+
+  .block4 {
+top: 520vw;
+    position: absolute;
+  }
+  .dirki {
+
+    width: 101vw;
+    
+  }
+
+  .r1 {width: 9vw;
+    z-index: -1;
+    left: 55vw;
+position: absolute;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: r1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+  }
+ 
+
+  .r2 {
+    width: 12vw;
+    z-index: 1;
+    left: 80vw;
+position: absolute;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-name: r2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+  }
+
+
+  .r3 { width: 12vw;
+    z-index: 1;
+    left: 10vw;
+position: absolute;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: r2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+  }
+
+
+  .r4 {  width: 10vw;
+    z-index: -1;
+    left: 65vw;
+position: absolute;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-name: r4;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+  }
+
+  .r5 { 
+    width: 10vw;
+    z-index: 1;
+    left:28vw;
+position: absolute;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-name: r7;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+  }
+
+
+
+  .block5 {
+    left: 15vw;
+    top: 640vw;
+    position: absolute;
+  }
+
+  .rusalka {
+    z-index: 2;
+    position: absolute;
+    left: 17vw;
+    top: 15vw;
+    width: 20vw;
+  animation: shake2 2s;
+
+
+  animation-iteration-count: infinite;
+}
+
+
+.rusalka2{
+  z-index: 2;
+  position: absolute;
+  left: 40vw;
+  top: 12vw;
+  width: 20vw;
+animation: shake3 2s;
+
+animation-iteration-count: infinite;
+}
+
+
+
+
+.block6 {
+  left: 17vw;
+    width: min-content;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 790vw;
+    align-items: end;
+  }
+.footer {
+  align-items: center;
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 15vw;
+  top: 870vw;
+  position:absolute ;
+}
+.logo {
+  width:  22vw;
+}
+.footer h1 {
+  padding-right: 44vw;
+  color: rgb(255, 255, 255);
+margin-left: 2vw;
+font-size: 2.4vw;
+font-family: "InterRegular";
+letter-spacing: 0%;
+text-align: left;
+
+}
+.tocka {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 735vw;
+}
+.tc1 {
+  border-radius: 100%;
+  height:4.5vw ;
+width:4.5vw;
+  display: inline-block;
+  animation: blink2 4s linear infinite;
+  background: #000;
+  margin: 0vw 2vw;
+}
+
+.tc1:nth-child(1) { animation-delay: 1s; }
+.tc1:nth-child(2) { animation-delay: 2s; }
+.tc1:nth-child(3) { animation-delay: 3s; }
+.tc1:nth-child(4) { animation-delay: 4s; }
+.tc1:nth-child(5) { animation-delay: 5s; }
+.tc1:nth-child(6) { animation-delay: 6s; }
+.tc1:nth-child(7) { animation-delay: 7s; }
+.tc1:nth-child(8) { animation-delay: 8s; }
+
+
+.ramka {
+  width: 75vw;
+}
